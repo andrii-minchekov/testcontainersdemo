@@ -1,7 +1,0 @@
-#azure:
-#  cosmos:
-#    uri: https://localhost:8081
-#    key: insert this here
-#    database: Azure
-#    connection-mode: direct
-#    consistency-level: eventual

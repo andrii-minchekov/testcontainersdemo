@@ -31,3 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/cosmosdb/src/main/resources/emulatorcert.crt

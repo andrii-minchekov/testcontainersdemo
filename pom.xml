@@ -13,6 +13,7 @@
     <artifactId>testcontainersdemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>testcontainersdemo</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -21,7 +22,13 @@
     </properties>
 
     <modules>
-        <module>postgres-sql</module>
+        <module>postgres-reactive</module>
+        <module>postgres-jpa</module>
+        <module>mongo-reactive</module>
+        <module>mongo-sync</module>
+        <module>sqlserver-jpa</module>
+        <module>sqlserver-reactive</module>
+        <module>cosmosdb</module>
     </modules>
 
     <build>
