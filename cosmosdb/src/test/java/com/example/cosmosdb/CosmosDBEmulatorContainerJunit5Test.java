@@ -60,11 +60,6 @@ public class CosmosDBEmulatorContainerJunit5Test {
 							new PortBinding(Ports.Binding.bindPort(8081), new ExposedPort(8081))
 					));
 
-	static {
-		emulator.start();
-		System.err.println("Emulator started");
-	}
-
 	static class Initializer
 			implements ApplicationContextInitializer<ConfigurableApplicationContext> {
 		@SneakyThrows
