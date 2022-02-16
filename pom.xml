@@ -29,6 +29,7 @@
         <module>sqlserver-jpa</module>
         <module>sqlserver-reactive</module>
         <module>cosmosdb</module>
+        <module>azure-blob</module>
     </modules>
 
     <build>
